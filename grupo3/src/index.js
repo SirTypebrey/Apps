@@ -3,10 +3,12 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import TablaApi from './tablaApi/TablaApi';
 
 ReactDOM.render(
   <React.StrictMode>
     <App />
+    <TablaApi/>
   </React.StrictMode>,
   document.getElementById('root')
 );
