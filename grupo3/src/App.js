@@ -1,12 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
+import Perfil from './components/perfil/Perfil'
 
-function App() {
+import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+export function App() {
   return (
     <div className="App">
-      ola bb
+      <div>
+        <Perfil/>
+      </div>
     </div>
   );
 }
 
-export default App;
